@@ -91,7 +91,7 @@ export default function SpatialLinkWebsite() {
             </p>
 
             <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Produce More. Spend Less. Farm Smarter.
+            Smart Drone Farming for Malawi.
             </h2>
 
             <p className="text-lg text-slate-600 leading-relaxed mb-8">
