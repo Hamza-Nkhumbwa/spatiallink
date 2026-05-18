@@ -57,7 +57,7 @@ export default function SpatialLinkWebsite() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
-              src="/mnt/data/49e1efc3-0a37-455e-bd2c-10c568b860b3.png"
+              src="spatial.png"
               alt="Spatial Link Logo"
               className="w-12 h-12 object-contain"
             />
@@ -91,7 +91,7 @@ export default function SpatialLinkWebsite() {
             </p>
 
             <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Produce More. Spend Less. Farm Smarter.
+            Smart Drone Farming for Malawi.
             </h2>
 
             <p className="text-lg text-slate-600 leading-relaxed mb-8">
@@ -112,7 +112,7 @@ export default function SpatialLinkWebsite() {
           <div className="relative">
             <div className="bg-white rounded-[30px] shadow-2xl border border-slate-100 p-8">
               <img
-                src="/mnt/data/49e1efc3-0a37-455e-bd2c-10c568b860b3.png"
+                src="mavicmss.jpg"
                 alt="Spatial Link"
                 className="w-full rounded-2xl"
               />
