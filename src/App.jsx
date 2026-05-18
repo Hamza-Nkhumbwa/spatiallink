@@ -248,27 +248,46 @@ export default function SpatialLinkWebsite() {
         </div>
       </section>
 
-      {/* Gallery */}
-      <section id="gallery" className="py-20 bg-slate-100">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h3 className="text-4xl font-bold mb-4">
-              Drone Imagery Gallery
-            </h3>
-            <p className="text-slate-600">
-              Sample aerial agricultural imagery and GIS mapping visuals.
-            </p>
-          </div>
+          {/* Gallery */}
+<section id="gallery" className="py-20 bg-slate-100">
+  <div className="max-w-7xl mx-auto px-4">
+    <div className="text-center mb-16">
+      <h3 className="text-4xl font-bold mb-4">
+        Drone Imagery Gallery
+      </h3>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[1,2,3,4,5,6].map((item) => (
-              <div key={item} className="aspect-video rounded-3xl bg-gradient-to-br from-green-500 to-blue-700 shadow-xl flex items-center justify-center text-white text-xl font-semibold">
-                Drone Image {item}
-              </div>
-            ))}
-          </div>
+      <p className="text-slate-600">
+        Real aerial agricultural imagery captured by Spatial Link drones.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      {[
+        '/drone1.jpg',
+        '/drone2.jpg',
+        '/drone3.jpg',
+        '/drone4.jpg',
+        '/drone5.jpg',
+        '/drone6.jpg'
+      ].map((image, index) => (
+
+        <div
+          key={index}
+          className="overflow-hidden rounded-3xl shadow-xl group bg-white"
+        >
+
+          <img
+            src={image}
+            alt={`Drone imagery ${index + 1}`}
+            className="w-full h-72 object-cover group-hover:scale-110 transition duration-500"
+          />
+
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Pricing */}
       <section id="pricing" className="py-20 bg-white">
