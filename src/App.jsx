@@ -112,7 +112,7 @@ export default function SpatialLinkWebsite() {
           <div className="relative">
             <div className="bg-white rounded-[30px] shadow-2xl border border-slate-100 p-8">
               <img
-                src="/mnt/data/49e1efc3-0a37-455e-bd2c-10c568b860b3.png"
+                src="spatial.png"
                 alt="Spatial Link"
                 className="w-full rounded-2xl"
               />
